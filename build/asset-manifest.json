@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Xinyi-UW/AeroNex/static/css/main.a21bbf29.css",
+    "main.js": "/Xinyi-UW/AeroNex/static/js/main.edecedaf.js",
+    "static/js/488.e40b5c20.chunk.js": "/Xinyi-UW/AeroNex/static/js/488.e40b5c20.chunk.js",
+    "static/media/droneimage2.png": "/Xinyi-UW/AeroNex/static/media/droneimage2.3caaac5abf81a62ee092.png",
+    "static/media/logo.png": "/Xinyi-UW/AeroNex/static/media/logo.d9880594b134596cba28.png",
+    "static/media/function3.jpeg": "/Xinyi-UW/AeroNex/static/media/function3.bf29a97087401a040d54.jpeg",
+    "static/media/funtion2.jpeg": "/Xinyi-UW/AeroNex/static/media/funtion2.d940c538eb0ec58430fe.jpeg",
+    "static/media/funtion1.jpeg": "/Xinyi-UW/AeroNex/static/media/funtion1.6195e828abc49f5934d1.jpeg",
+    "static/media/Xinyi.jpeg": "/Xinyi-UW/AeroNex/static/media/Xinyi.ce7bacfe797afcad34d7.jpeg",
+    "static/media/Ravi.jpeg": "/Xinyi-UW/AeroNex/static/media/Ravi.4e08f49af88033a91307.jpeg",
+    "static/media/Ankit.jpeg": "/Xinyi-UW/AeroNex/static/media/Ankit.8d22927d4963e259a86e.jpeg",
+    "static/media/University_of_Washington.png": "/Xinyi-UW/AeroNex/static/media/University_of_Washington.1a11464505af79471f75.png",
+    "static/media/gix_logo.png": "/Xinyi-UW/AeroNex/static/media/gix_logo.70e9f862a09d0c68753c.png",
+    "index.html": "/Xinyi-UW/AeroNex/index.html",
+    "main.a21bbf29.css.map": "/Xinyi-UW/AeroNex/static/css/main.a21bbf29.css.map",
+    "main.edecedaf.js.map": "/Xinyi-UW/AeroNex/static/js/main.edecedaf.js.map",
+    "488.e40b5c20.chunk.js.map": "/Xinyi-UW/AeroNex/static/js/488.e40b5c20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a21bbf29.css",
+    "static/js/main.edecedaf.js"
+  ]
+}

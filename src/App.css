@@ -1,0 +1,184 @@
+body {
+  background-color: black; /* 设置背景色为黑色 */
+}
+
+
+.app-header {
+  display: flex;
+  align-items: center; /* 垂直居中子元素 */
+  justify-content: flex-start; /* 子元素靠左对齐 */
+  padding: 10px 20px; /* 根据需要调整内边距 */
+}
+
+.banner {
+  /* 保持banner文本居中 */
+  position: absolute; /* 绝对定位 */
+  left: 50%; /* 移动到容器的50%位置 */
+  transform: translateX(-50%); /* 向左偏移自身的50%以确保真正居中 */
+  font-size: 3em;
+  font: bold;
+  text-align: center; /* 文本居中 */
+}
+
+
+.sub-banner {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: black;
+  color: rgb(241, 241, 241);
+  font-size: large;
+}
+
+.app-container {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.main-image-container {
+  position: relative;
+  color: white;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.main-image-container {
+  position: relative; /* 确保父容器是相对定位 */
+  /* 其他样式保持不变 */
+}
+
+.main-image-description {
+  position: absolute; /* 绝对定位 */
+  top: 250px; /* 从顶部开始 */
+  right: 0; /* 定位到右侧 */
+  width: 30%; /* 可调整宽度 */
+  color: white; /* 文字颜色 */
+  background-color: rgba(0, 0, 0, 0.35); /* 半透明背景，可选 */
+  border-radius: 5px; /* 圆角的大小，可以根据需要调整 */
+  padding: 25px; /* 内边距 */
+  text-align: center; /* 文本对齐方式 */
+}
+
+.main-image-description:hover {
+  transform: scale(1.05); /* 当鼠标滑过时，图片放大5% */
+}
+
+
+
+.images-task {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  padding: 5px 0;
+  margin-top: 20px;
+  margin-bottom: 320px;
+
+}
+
+.task-image {
+  width: 260px;
+  height: 180px;
+  object-fit: cover; /* 确保图片不失真 */
+  transition: transform 0.3s ease; /* 添加过渡效果，使变换更平滑 */
+  border-radius: 12px; /* 圆角的大小，可以根据需要调整 */
+}
+
+.task-image:hover {
+  transform: scale(1.13); /* 当鼠标滑过时，图片放大5% */
+}
+
+.image-team {
+  display: flex;
+  justify-content: center; /* 使子元素居中对齐 */
+  gap: 60px; /* 根据需要调整子元素之间的间距 */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.team {
+  display: flex;
+  flex-direction: column; /* 使图片和文字垂直排列 */
+  align-items: center; /* 居中对齐图片和文字 */
+  gap: 5px; /* 调整图片和文字之间的距离 */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.team-image {
+  width: 220px; /* 根据需要调整宽度 */
+  height: 220px; /* 保持图片的纵横比 */
+  object-fit: cover; /* 确保图片不失真 */
+  transition: transform 0.3s ease; /* 添加过渡效果，使变换更平滑 */
+  border-radius: 50%; /* 使图片完全圆形 */
+}
+
+.team-image:hover {
+  transform: scale(1.08); /* 当鼠标滑过时，图片放大5% */
+}
+
+.word {
+  width: 30%; /* 根据需要调整宽度 
+}
+
+
+
+
+
+.text-container2 {
+  width: 65%; /* 控制文本宽度，可根据需要调整 */
+  margin: 2px auto; /* 减少间隔 */
+  color: white; /* 文本颜色，可根据背景调整 */
+  text-align: center; /* 文本对齐方式 */
+}
+
+.images-row {
+  display: flex;
+  justify-content: center;
+  gap: 2px; /* 减小gap值 */
+  margin-top: 20px;
+}
+
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 5px; /* 减少或调整外边距以减小距离 */
+}
+
+
+.row-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* 确保图片不失真 */
+}
+
+
+.subtitle {
+  margin-top: 20px;
+  margin-bottom: 0px; /* 减少下边距 */
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+
+
+.text-container2 {
+  width: 55%; /* 控制文本宽度，可根据需要调整 */
+  margin: 2px auto; /* 减少间隔 */
+  color: white; /* 文本颜色，可根据背景调整 */
+  text-align: center; /* 文本对齐方式 */
+}
+
+
+
+.uw {
+  margin-top: 100px;
+  width: 500px;
+  height: 100px;
+  object-fit: cover; /* 确保图片不失真 */
+}
+
+
